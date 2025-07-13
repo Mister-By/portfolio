@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.typewriter p {
+  overflow: hidden;
+  white-space: wrap;
+  border-right: 0px solid white;
+  display: inline-block;
+  width: 0;
+
+  animation:
+    typing 0.8s steps(21, end) 0.2s forwards,
+    blink 0.75s step-end 0.3s ;
+}
+.once {
+  animation-iteration-count: 1;
+}
+.scrool{
+  scroll-behavior: smooth;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    border-right: 2px solid white;
+    white-space: nowrap;
+  }
+  to {
+    white-space: nowrap;
+    width: 425px; /* 21 caractères exactement */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.anim-gauche {
+  animation: gauche 0.95s linear forwards;
+}
+
+@keyframes gauche {
+  0% {
+    transform: translate(-5%, 5%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.1;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+
+.anim-droite{
+  animation: droite 0.8s linear forwards;
+}
+
+@keyframes droite {
+  0% {
+    transform: translate(-1%, -5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+
+.animate-dip{
+  animation: animation-dip 1s ease-in-out 0.2s forwards ;
+}
+
+@keyframes animation-dip {
+  0% {
+    transform: rotate(-20deg);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
