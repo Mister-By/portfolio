@@ -5,7 +5,7 @@ import m from '../assets/m.png'
 export default function Reseau() 
 {
     return(
-        <div className="flex mt-11 justify-evenly items-center w-3/4 max-xs:w-full border-2">
+        <div className="flex mt-11 justify-evenly items-center w-3/4 max-xs:w-full">
             <Logo url={w} />
             <Logo url={m} />
 

@@ -7,7 +7,7 @@ function App() {
 
   return (
    <div> 
-      <section className="h-[100vh] max-lgg:h-[160vh] bg-[#081B29] pt-1">
+      <section className="w-full sect1-taille max-lgg:h-[160vh] bg-[#081B29] pt-1">
           <Header/>
           <Accueil/>
       </section>

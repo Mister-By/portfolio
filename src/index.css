@@ -20,6 +20,15 @@
   scroll-behavior: smooth;
 }
 
+.sect1-taille{
+  height: 100vh;
+}
+@media (max-height: 500px) {
+  .sect1-taille{
+    height: 200vh;
+  }
+}
+
 @keyframes typing {
   from {
     width: 0;
