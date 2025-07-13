@@ -8,7 +8,7 @@ import photo from "../assets/p.jpg"
 export default function Accueil() 
 {
     return(
-       <div className="h-[80%] mt-[100px] flex justify-evenly max-lg:flex-col max-lg:items-center">
+       <div className="w-[100%] h-[80%] mt-[100px] flex justify-evenly max-lg:flex-col max-lg:items-center">
             <div
                 className="w-full max-w-[700px] h-[80%] mt-[50px] pl-14 ml-4 anim-gauche flex flex-col justify-center 
                         bg-white/10 backdrop-blur-sm text-white

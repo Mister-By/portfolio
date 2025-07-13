@@ -18,7 +18,7 @@ export default function Parcours() {
   }, []);
 
   return (
-    <div className="w-full flex justify-center py-10 h-full">
+    <div className="w-[98%] flex justify-center py-10 h-full">
       <div className="flex flex-col items-center h-full relative">
         {/* Flèche vers le haut */}
         <div className="w-0 h-0 border-l-[10px] border-r-[10px] border-b-[15px] 
@@ -34,7 +34,7 @@ export default function Parcours() {
             />
 
             {/* Diplôme gauche */}
-            <div className="absolute top-[80px] left-[-200px] w-[180px] opacity-0 animate-dip ">
+            <div className="absolute top-[80px] left-[-140px] md:left-[-200px] w-[127px]  opacity-0 animate-dip ">
               <Diplome
                 titre="2ème année ingenierie informatique"
                 année="2022"
@@ -43,7 +43,7 @@ export default function Parcours() {
             </div>
 
             {/* Diplôme droite */}
-            <div className="absolute top-[250px] left-[30px] w-[180px] opacity-0 animate-dip">
+            <div className="absolute top-[250px] left-[30px] w-[127px] opacity-0 animate-dip">
               <Diplome titre="Bac C" année="2019" />
             </div>
           </>

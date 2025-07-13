@@ -10,7 +10,7 @@
   width: 0;
 
   animation:
-    typing 0.8s steps(21, end) 0.2s forwards,
+    typing 0.8s steps(21, end) 0.5s forwards,
     blink 0.75s step-end 0.3s ;
 }
 .once {
