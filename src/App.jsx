@@ -11,7 +11,7 @@ function App() {
           <Header/>
           <Accueil/>
       </section>
-      <section className="w-full h-[80vh] max-xl:h-[70vh] bg-[#173d59] pt-1" >
+      <section className="w-full h-[90vh]  bg-[#173d59] pt-1" >
           <h1 id="p" className="text-6xl text-center text-white scroll-mt-[75px]">
             Parcours
           </h1>

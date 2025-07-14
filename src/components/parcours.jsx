@@ -18,8 +18,8 @@ export default function Parcours() {
   }, []);
 
   return (
-    <div className="w-[98%] flex justify-center py-10 h-full">
-      <div className="flex flex-col items-center h-full relative">
+    <div className="w-[98%] flex justify-center pt-7 pb-14 h-[98%]">
+      <div className="flex flex-col items-center h-full relative py-1">
         {/* Flèche vers le haut */}
         <div className="w-0 h-0 border-l-[10px] border-r-[10px] border-b-[15px] 
                         border-l-transparent border-r-transparent border-b-white" />
@@ -29,22 +29,22 @@ export default function Parcours() {
           <>
             {/* Ligne verticale blanche avec animation */}
             <div
-              className="w-[4px] h-[80%] bg-white animate-grow-line"
+              className="w-[4px] h-[85%] bg-white animate-grow-line"
               ref={lineRef}
             />
 
             {/* Diplôme gauche */}
-            <div className="absolute top-[80px] left-[-140px] md:left-[-200px] w-[127px]  opacity-0 animate-dip ">
+            <div className="absolute top-[15%] left-[-120px] md:left-[-200px] w-[127px]  opacity-0 animate-dip ">
               <Diplome
-                titre="2ème année ingenierie informatique"
-                année="2022"
+                titre="2ème année d'ingénierie informatique"
+                annee="2025"
                 gauche={true}
               />
             </div>
 
             {/* Diplôme droite */}
-            <div className="absolute top-[250px] left-[30px] w-[127px] opacity-0 animate-dip">
-              <Diplome titre="Bac C" année="2019" />
+            <div className="absolute top-[50%] left-[30px] w-[127px] opacity-0 animate-dip">
+              <Diplome titre="Bac C" annee="2023" />
             </div>
           </>
         )}

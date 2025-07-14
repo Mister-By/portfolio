@@ -1,7 +1,7 @@
 export default function Diplome({ titre, annee, description, gauche }) {
   return (
     <div className="bg-white text-[#081B29] shadow-md p-4 rounded-xl 
-                    w-[90%] max-w-[260px] sm:w-[220px] md:w-[180px] 
+                    w-[94%]   md:w-[180px] 
                     relative text-start">
       {/* Flèche vers la timeline */}
       {gauche ? (
@@ -15,7 +15,7 @@ export default function Diplome({ titre, annee, description, gauche }) {
       )}
 
       <h3 className="text-base sm:text-lg font-semibold">{titre}</h3>
-      <p className="text-sm sm:text-xs font-medium text-gray-600">{annee}</p>
+      <p className="text-sm mt-1 text-center sm:text-xs font-medium text-gray-600">({annee})</p>
       {description && (
         <p className="mt-2 text-sm sm:text-xs text-gray-700">{description}</p>
       )}
