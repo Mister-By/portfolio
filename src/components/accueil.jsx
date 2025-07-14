@@ -26,7 +26,7 @@ export default function Accueil()
             </div>
 
             {/* droite */}
-            <div className="w-[100%] absolute flex justify-center  z-20
+            <div className="w-[100%] absolute flex justify-center top-2 z-20
                 md:static md:w-[40%] anim-droite
             ">
                 {/* lueur */}
