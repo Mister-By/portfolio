@@ -25,7 +25,7 @@ export default {
         'xl': '1280px',   // grand écran
         '2xl': '1536px',  // très grand écran
         '3xl': '1920px',   // ultra large
-        //'h-short': { raw: '(max-height: 580px)' },
+        //'h-short': { raw: '(max-height: 868px)' },
       },
     },
   },
