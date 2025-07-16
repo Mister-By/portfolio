@@ -3,7 +3,7 @@ import Nom from "./nom";
 import Profil from "./profil";
 import Reseau from "./reseau";
 import Salut from "./salut";
-import photo from "../assets/pp.jpg"
+import photo from "../assets/p.jpg"
 
 export default function Accueil() 
 {

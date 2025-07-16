@@ -12,6 +12,8 @@ export default function Reseau()
             <a
                 href="/cv.pdf"
                 download
+      
+      Télécharger CV
                 className="inline-block px-6 py-3 max-sm:p-3 rounded-[16px] text-[#0d1337] font-semibold bg-cyan-400 hover:bg-cyan-300 transition duration-300 shadow-lg hover:shadow-xl"
                 >
                 Télécharger CV
