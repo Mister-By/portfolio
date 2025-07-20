@@ -22,7 +22,7 @@ export default function Header() {
         ):
         (
             <div className="space-y-1">
-            <span className>×</span>
+            <span className >×</span>
             </div>
         )}
 
