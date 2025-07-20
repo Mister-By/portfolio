@@ -7,7 +7,7 @@ export default function Reseau()
     return(
         <div className="flex mt-11 justify-evenly items-center w-3/4 max-xs:w-full">
             <Logo url={w} lien={"https://wa.me/2250143349212"} />
-            <Logo url={m} lien={""} />
+            <Logo url={m} lien={"https://mail.google.com/mail/?view=cm&fs=1&to=niamienyvan@gmail.com"} />
 
             <a
                 href="/cv.pdf"
